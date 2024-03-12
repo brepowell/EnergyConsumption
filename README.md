@@ -6,4 +6,10 @@ LondonDataExploration.ipynb contains all data exploration.
 LondonDataFeatureEngineering.ipynb contains all feature engineering.
 > It uses a dataframe of shape (167817021, 3) and no NaN values
 
-Note that the data folder is on the gitignore list so that it's not exposed to the public.
+LondonDataModelTraining.ipynb contains a baseline model that I was planning to use for my comparisons.
+
+LondonDataModelwGaussian.ipynb adds 10 percent Gaussian noise to the data.
+
+LondonDataModelwPepper.ipynb adds 10 percent salt and pepper noise to the data.
+
+Note that the "Data" folder is on the gitignore list so that it's not exposed to the public. This is because I started out using a dataset that is not supposed to be released to the public.
